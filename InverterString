@@ -4,8 +4,8 @@ let texto = prompt("Digite uma palavra: ");
 function  inverterString(texto) {
    text.reverse();
    let textoinvertido = text.toString()
-   textoinvertido = textoinvertido.replaceAll(",", "")
-    console.log(textoinvertido)
+   textoinvertido = textoinvertido.replaceAll(",", "");
+    console.log(textoinvertido);
 }
 
-inverterString(texto)
+inverterString(texto);
