@@ -1,8 +1,12 @@
 let n = 5;
-let multiplicacao = 1;
+
 
 function calcularFatorial(n){
-    for(let i = 1; i <= n; i++){
+    let multiplicacao = 1;
+if (n < 1){
+return { "error": "Input menor que 1" }
+}
+    for(let i = n; i >= 1; i--){
        multiplicacao = i*multiplicacao;
     }
     console.log(multiplicacao);
