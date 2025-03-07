@@ -5,4 +5,4 @@ function contarLetras(texto) {
     console.log(`Tamanho da string = ${texto.length}`);
 }
 
-contarLetras(texto)
+contarLetras(texto);
