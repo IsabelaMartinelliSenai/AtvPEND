@@ -1,8 +1,8 @@
-let min = 2
-let max = 4
+let min = 2;
+let max = 24;
 
 function gerarNumeroAleatorio(min, max) {
     console.log( Math.floor(Math.random() * (max - min + 1)) + min);
 }
 
-gerarNumeroAleatorio(min, max) 
+gerarNumeroAleatorio(min, max); 
