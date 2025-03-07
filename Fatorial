@@ -5,7 +5,7 @@ function calcularFatorial(n){
     for(let i = 1; i <= n; i++){
        multiplicacao = i*multiplicacao
     }
-    console.log(multiplicacao)
+    console.log(multiplicacao);
 }
 
 calcularFatorial(n)
