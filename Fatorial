@@ -1,11 +1,11 @@
-let n = 5
-let multiplicacao = 1
+let n = 5;
+let multiplicacao = 1;
 
 function calcularFatorial(n){
     for(let i = 1; i <= n; i++){
-       multiplicacao = i*multiplicacao
+       multiplicacao = i*multiplicacao;
     }
     console.log(multiplicacao);
 }
 
-calcularFatorial(n)
+calcularFatorial(n);
