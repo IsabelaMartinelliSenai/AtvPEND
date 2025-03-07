@@ -1,0 +1,9 @@
+let texto = prompt("Digite uma palavra: ");
+
+function  inverterString(texto) {
+   (texto.split(""));
+   console.log(texto.reverse())
+   
+}
+
+inverterString(texto)
