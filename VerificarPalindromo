@@ -1,0 +1,13 @@
+let texto = prompt("Digite uma palavra: ");
+let text = texto.split("");
+
+function ehPalindromo(texto){
+    const reverso = text.reverse().toString().replaceAll(",", "");
+    if(reverso === texto){
+        console.log("É palindromo");
+    }else{
+        console.log("Não é palindromo");
+    }
+}
+
+ ehPalindromo(texto);
