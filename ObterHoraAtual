@@ -1,6 +1,6 @@
 let data = new Date();
 
 function obterHoraAtual(data){
-    console.log(data.toLocaleTimeString());
+    return data.toLocaleTimeString();
 }
-obterHoraAtual();
+console.log(obterHoraAtual());
