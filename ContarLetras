@@ -1,8 +1,8 @@
 let texto = prompt("Digite uma palavra: ");
 
 function contarLetras(texto) {
-    texto = texto.replaceAll(" ", "")
-    console.log(`Tamanho da string = ${texto.length}`)
+    texto = texto.replaceAll(" ", "");
+    console.log(`Tamanho da string = ${texto.length}`);
 }
 
 contarLetras(texto)
