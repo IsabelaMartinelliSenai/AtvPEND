@@ -1,0 +1,9 @@
+let a = 3
+let b = 4
+
+function calcularHipotenusa(a, b) {
+    let hipotenusa = a**2 + b**2
+    console.log(Math.sqrt(hipotenusa)) 
+}
+
+calcularHipotenusa(a, b)
